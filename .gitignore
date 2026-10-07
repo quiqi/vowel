@@ -1,0 +1,25 @@
+# Local research data and generated artifacts must stay outside version control.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.wav
+*.mp3
+*.flac
+*.joblib
+*.pkl
+*.parquet
+*.zip
+*.docx
+*.pdf
+*.json
+__pycache__/
+.pytest_cache/
+.venv/
+outputs/
+data/
+checkpoints/
+*.egg-info/
+
+# macOS metadata
+.DS_Store

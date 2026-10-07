@@ -1,0 +1,4 @@
+-r requirements.txt
+# Historical audio-library versions were not fully preserved; these are new-install dependencies.
+librosa>=0.10,<1
+praat-parselmouth>=0.4,<1
